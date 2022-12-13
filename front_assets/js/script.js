@@ -66,4 +66,63 @@ const eventContent5 = (self) => {
 $('.card-content6').slick({
     dots:true,
     arrows: true,
+    responsive:[
+        {
+            breakpoint:767,
+        settings:{
+            dots:true,
+            arrows:false,
+
+        }
+        },
+        
+        
+    ]
+});
+
+////////////////////////////
+
+const eventClickContent9 = ()=>{
+    $('.wrapper-desc-content9').each((index, value) =>{
+        $(value).find('h1').on('click', ()=>{
+            $(value).find('deskripsi-content9').toggleClass('d-none')
+        })
+    })
+}
+
+eventClickContent9();
+
+const eventContent9 = (self) =>{
+    $('.deskripsi-content9').addClass('d-none')
+    const getDesc = self.querySelector('.wrapper-desc-content9, deskripsi-content9');
+}
+
+
+
+// Select all links with hashes
+
+
+$('.card-content8').slick({
+    dots:false,
+    arrows: false,
+    slidesToShow:3,
+    responsive:[
+        {
+        breakpoint:767,
+        settings:{
+            dots:true,
+            arrows:false,
+
+        }
+        },
+        {
+            breakpoint: 998,
+            settings: {
+                dots:true,
+                slidesToShow: 2,
+                arrows: false,
+            },
+        }
+        
+    ]
 });

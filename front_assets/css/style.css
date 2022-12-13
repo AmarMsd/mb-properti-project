@@ -95,7 +95,9 @@
 /* End Button Declaration */
 
 /* Utils */
-
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
 /* End Utils */
 
 
@@ -398,13 +400,66 @@ hr{
 /* End content6 */
 
 
-/* Daftar Produk - dapro */
+/* content 7 */
 #content7 {
     margin-top: 48px;
 }
-/* End Daftar Produk - dapro */
+
+.list-content7{
+    list-style-type: none;
+}
+/* End content 7 */
 
 
+/*content 8*/
+#content8{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.title-content8{
+    height: auto;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card-content8{
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.image-content8 img{
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+/*end content 8*/
+
+/* content 9 */
+
+.content9{
+    margin-top: 50px;
+}
+
+.wrapper-desc-content9 h1{
+    background-color: #0042a6;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.deskripsi-content9{
+    background-color: #e7e2e2;
+    color: black;
+    padding: 20px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+
+/* end content 9 */
 /* Footer */
 .footer-bg {
     color: white;
@@ -487,6 +542,9 @@ hr{
 
 
     /* Header */
+    .page-header{
+        padding-top: 4px;
+    }
     .image-header{
         width: 100%;
         height: auto;
@@ -500,6 +558,9 @@ hr{
 
 
     /* content2 */
+    .content2{
+        margin-top: 160px;
+    }
 
     .content2-deskripsi{
         width: 100%;
@@ -535,6 +596,18 @@ hr{
 
     /* content5 */
 
+    .card-content5{
+        min-height: 0;
+    }
+    .image-content5{
+        width: 100%;
+        height: auto;
+    }
+    .deskripsi-content5{
+        width: 100%;
+    }
+    
+
     /* End content5 */
 
 
@@ -555,9 +628,14 @@ hr{
     /* End content6 */
 
 
-    /* Daftar Produk - dapro */
+    /* content 9 */
 
-    /* End Daftar Produk - dapro */
+    .card-content9 img{
+        width: 100%;
+        height: auto;
+    }
+
+    /* End content 9 */
 
     /* Footer */
     .button-layout.footer-button {
@@ -598,7 +676,14 @@ hr{
     .header-bg {
         height: auto;
     }
-
+    .search-card{
+        width: 100%;
+    }
+    .image-header{
+        width: 100%;
+        height: auto;
+        border-radius: 40px;
+    }
 
     /* content2 */
 
@@ -616,7 +701,19 @@ hr{
 
 
     /* content5 */
-
+    .card-content5{
+        min-height: 0;
+    }
+    .image-content5{
+        width: 100%;
+        height: auto;
+    }
+    .deskripsi-content5{
+        width: 100%;
+    }
+    .card-content8{
+        gap: 10px;
+    }
     /* End content5 */
 
 
@@ -625,10 +722,28 @@ hr{
     /* End content6 */
 
 
-    /* Daftar Produk - dapro */
+    /* content 8 */
+    .card-content8{
+        gap: 10px;
+    }
+    .image-content8{
+        height: auto;
+    }
+    .image-content8 img{
+        width: 100%;
+        height: auto;
+    }
 
-    /* End Daftar Produk - dapro */
+    /* End content 8 */
 
+    /* content 9 */
+
+    .card-content9 img{
+        width: 100%;
+        height: auto;
+    }
+
+    /* End content 9 */
 
     /* Footer */
 
@@ -693,9 +808,9 @@ hr{
     /* End content6 */
 
 
-    /* Daftar Produk - dapro */
+    /* content 7 */
 
-    /* End Daftar Produk - dapro */
+    /* End content 7 */
 
     
     /* Footer */
