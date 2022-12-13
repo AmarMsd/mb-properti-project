@@ -46,3 +46,24 @@ function myFunction(){
         }
     }
 }
+
+const eventClickContent5 = ()=>{
+    $('.wrapper-desc-content5').each((index, value)=>{
+        $(value).find('h2').on('click',()=>{
+            $(value).find('.deskripsi-content5').toggleClass('d-none')
+        })
+    })
+}
+
+
+eventClickContent5();
+
+const eventContent5 = (self) => {
+    $('.deksripsi-content5').addClass('d-none')
+    const getDesc = self.querySelector('.wrapper-desc-content5, deskripsi-content5');
+}
+
+$('.card-content6').slick({
+    dots:true,
+    arrows: true,
+});
